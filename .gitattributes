@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force C# as the primary language
+*.cs linguist-detectable=true
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+*.compute linguist-detectable=false
+*.hlsl linguist-detectable=false
